@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#ddev-generated
+## Description: Run Nub's package-runner (nubx) inside DDEV web container
+## Usage: nubx [command]
+## Example: "ddev nubx --help"
+
+nubx "$@"

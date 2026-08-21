@@ -1,0 +1,11 @@
+name: nub
+repository: MetaSyntactical/ddev-nub
+version: v0.2.0
+install_date: "2026-08-21T10:59:57+02:00"
+project_files:
+    - web-build/Dockerfile.nub
+    - docker-compose.nub.yaml
+    - commands/web/nub
+    - commands/web/nubx
+global_files: []
+removal_actions: []

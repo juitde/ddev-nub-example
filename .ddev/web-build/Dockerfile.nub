@@ -1,0 +1,6 @@
+#ddev-generated
+# Install the Nub CLI (@nubjs/nub) into the DDEV web container
+# NUB_VERSION is supplied as a build arg (see docker-compose.nub.yaml);
+# leave it empty to install the latest release.
+ARG NUB_VERSION=""
+RUN npm install -g @nubjs/nub@${NUB_VERSION:-latest}

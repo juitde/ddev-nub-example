@@ -1,0 +1,6 @@
+#ddev-generated
+services:
+  web:
+    build:
+      args:
+        NUB_VERSION: ${NUB_VERSION:-}

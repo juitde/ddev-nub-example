@@ -1,0 +1,7 @@
+name: ddev-nub-example
+type: generic
+docroot: ""
+webserver_type: generic
+# Kein Datenbank-Container -- das Beispiel ist reines Node.js/CLI-Tooling.
+omit_containers: [db]
+disable_upload_dirs_warning: true

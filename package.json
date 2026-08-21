@@ -1,0 +1,23 @@
+{
+  "name": "ddev-nub-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Example project for the ddev-nub add-on -- a small Vite frontend plus a transpilation-free TypeScript demo, run entirely through nub inside ddev.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "nub test/demo.test.ts"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.0",
+    "vite": "^8.2.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "nub",
+      "version": "^0.7.5",
+      "onFail": "ignore"
+    }
+  }
+}

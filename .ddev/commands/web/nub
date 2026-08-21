@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#ddev-generated
+## Description: Run the Nub toolkit inside the DDEV web container
+## Usage: nub [command]
+## Example: "ddev nub --help"
+
+nub "$@"
